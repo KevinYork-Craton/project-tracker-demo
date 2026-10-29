@@ -6,6 +6,8 @@
     <fieldPermissions><editable>true</editable><field>Project__c.Budget__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>false</editable><field>Project__c.Completed_Date__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Project__c.Due_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Project__c.Project_Hours__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Project__c.Project_Size__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Project__c.Status__c</field><readable>true</readable></fieldPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>

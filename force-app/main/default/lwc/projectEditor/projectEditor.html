@@ -24,9 +24,11 @@
                                 <lightning-input-field field-name={field}></lightning-input-field>
                             </div>
                         </template>
-                        <div class="slds-col slds-size_1-of-2">
-                            <lightning-output-field field-name={completedDateField}></lightning-output-field>
-                        </div>
+                        <template for:each={readOnlyFields} for:item="field">
+                            <div key={field} class="slds-col slds-size_1-of-2">
+                                <lightning-output-field field-name={field}></lightning-output-field>
+                            </div>
+                        </template>
                     </div>
                     <div class="slds-m-top_small slds-text-align_right">
                         <lightning-button variant="brand" type="submit" label="Save"></lightning-button>
